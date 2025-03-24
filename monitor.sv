@@ -1,4 +1,4 @@
-class monitor extends uvm_driver #(transaction);
+class monitor extends uvm_monitor #(transaction);
 
   //Factory Registration
   `uvm_component_utils(monitor)
